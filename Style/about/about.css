@@ -201,6 +201,10 @@ h5 {
   transform: translateX(-50%);
 }
 
+footer > img {
+  width: 20%;
+}
+
 .partner img {
   height: 40px;
   margin: 0 8px 8px 0;
@@ -229,7 +233,8 @@ footer {
 
 footer .footer-description {
   font-size: 18px;
-  display: inline-block;
+
+  /* display: inline-block; */
   text-align: left;
   margin-left: 32px;
   display: none;
@@ -239,10 +244,6 @@ footer .desktop-footer__img {
   display: none;
 }
 
-
-footer > img {
-  width: 20%;
-}
 @media screen and (min-width: 500px) {
   .collapse-list li {
     width: 50%;
@@ -545,9 +546,10 @@ footer > img {
 
   footer .footer-description {
     display: flex;
-    color:  #d3d3d3;
+    color: #d3d3d3;
     padding-right: 30px;
   }
+
   footer > img {
     width: 10%;
     padding-left: 80px;
