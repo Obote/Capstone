@@ -232,12 +232,17 @@ footer .footer-description {
   display: inline-block;
   text-align: left;
   margin-left: 32px;
+  display: none;
 }
 
 footer .desktop-footer__img {
   display: none;
 }
 
+
+footer > img {
+  width: 20%;
+}
 @media screen and (min-width: 500px) {
   .collapse-list li {
     width: 50%;
@@ -536,5 +541,15 @@ footer .desktop-footer__img {
 
   .img-container a {
     text-align: center;
+  }
+
+  footer .footer-description {
+    display: flex;
+    color:  #d3d3d3;
+    padding-right: 30px;
+  }
+  footer > img {
+    width: 10%;
+    padding-left: 80px;
   }
 }
