@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Style/style.css">
+    <title>Nyege Nyege Festival</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="container__header">
+          <nav class="top-nav">
+              <ul>
+                  <li>
+                      <a href="#">
+                          <img src="./Assests/images/fb-logo.png" alt="facebook logo" width="8">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <img src="./Assests/images/tw-logo.png" alt="twitter logo" width="19">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">English</a>
+                  </li>
+                  <li>
+                      <a href="#">My page</a>
+                  </li>
+                  <li>
+                      <a href="#">Logout</a>
+                  </li>
+              </ul>
+          </nav>
+          <nav class="hamburger-menu">
+              <img class="hamburger-img" src="./Assests/images/hamburger-menu.png" alt="hamburger menu icon">
+              <ul class="collapse-list">
+                  <li>
+                      <img id="close-btn" class="close-sign" src="./Assests/images/close.png" alt="close sign">
+                  </li>
+                  <li>
+                      <a href="index.html" id="home-link">Home</a>
+                  </li>
+                  <li>
+                      <a href="about.html">About</a>
+                  </li>
+                  <li>
+                      <a href="#main-program">Program</a>
+                  </li>
+              </ul>
+          </nav>
+          <nav class="desktop-navbar-container">
+              <div class="desktop-navbar">
+                  <a href="index.html">
+                      <img class="desktop-logo" src="./Assests/images/nyege-logoc.png" alt="nyegenyege logo">
+                  </a>
+                      <ul>
+                          <li>
+                              <a href="index.html" class="active-tab">Home</a>
+                          </li>
+                          <li>
+                              <a href="index.html#main-program">Program</a>
+                          </li>
+                          <li>
+                              <a href="about.html">About</a>
+                          </li>
+                          <li>
+                              <a href="https://www.nyegenyege.com/" target="_blank" rel="noopener">Join</a>
+                          </li>
+                      </ul>
+              </div>
+          </nav>
+      </header>
+      <section class="introduction">
+        <span class= "hello-msg">
+            "Hey! Vitual world"
+        </span>
+        <h1 class="introduction__header">
+            Nyege Nyege Music Festival.
+        </h1>
+        <div class="introduction__description-container">
+            <p class="introduction__description">
+              Nyege Nyege is part of a Kampala based arts collective that includes an artist residency and community studios, our two record labels NYEGE NYEGE TAPES and HAKUNA KULALA as well as an artist management agency and a legendary party crew called Boutiq Electroniq
+            </p>
+        </div>
+        <h2 class="event-date">
+            October class: 2021.10.20 (WED) 
+        </h2>
+        <span class="event-location">
+            @ Nyege Nyege Music Festival
+        </span>        
+      </section>
+      <section class="main-program" id="main-program">
+        <h3>
+            Main Program
+        </h3>
+        <div class="main-program__container">
+            <div class="card">
+                <img src="./Assests/images/icons8-concert-50.png" alt="concerts">
+                <span class="card-title">concerts</span>
+                <p class="card-description">Listen to your favorite artist from various contries. no matter where you are.</p>
+            </div>
+
+            <div class="card">
+                <img src="./Assests/images/icons8_vr-cardboard.png" alt="VR Exhibition">
+                <span class="card-title">VR Exhibition</span>
+                <p class="card-description">Between creation and exploration, and reflection and innovation inside a multiplatform event.</p>
+            </div>
+
+            <div class="card">
+                <img src="./Assests/images/icons8-performance-50.png" alt=" Forum">
+                <span class="card-title">Forum</span>
+                <p class="card-description">Nyege nyege unveils the Festival’s in-venue programming as well as the first experts who will take part in the Forum</p>
+            </div>
+
+            <div class="card">
+                <img src="./Assests/images/icons8-music-festival-50.png" alt="Nocturne series">
+                <span class="card-title">Nocturne series</span>
+                <p class="card-description">These 12 performances, most of which are world premieres, showcase the talents of about twenty artists.</p>
+            </div>
+            <a href="https://nyegenyege.com/" target="_blank" rel="noopener" class="join-btn" id="join-btn">
+            Apply now
+            </a>
+        </div>
+        <a href="#" class="desktop-see-program">see the whole program</a>
+    </section>
+    <section class="staff">
+      <h2 class="staff__headings">
+          Performing Artists
+      </h2>
+      <div class="staff-container-wrapper">
+      
+      </div>
+  </section>
+  <section class="partner">
+      <h3>
+          Partner
+      </h3>
+          <div>
+              <img src="./Assests/images/UberLogo.svg" alt="Uber logo">
+              <img src="./Assests/images/AirbnbLogo.svg" alt="airbnb logo">
+              <img src="./Assests/images/MozillaLogo.svg" alt="mozilla logo">
+              <img src="./Assests/images/GoogleLogo.svg" alt="google logo">            
+          </div>
+  </section>
+  <footer>
+    <img src="./Assests/images/nyege-logoc.png" alt="Nyege Nyege logo">
+    <!-- <img src="./Assests/images/nyge.png" alt="">   -->
+    <p>2021 Nyege Nyege rights reserved</p>
+    <p class="footer-description">Nyege Nyege is part of a Kampala based arts collective that includes an artist residency and community studios, our two record labels NYEGE NYEGE TAPES and HAKUNA KULALA as well as an artist management agency and a legendary party crew called Boutiq Electroniq</p>
+</footer>
+  <script src="./JS/hamburger.js"></script>
+  <script src="./JS/popup.js"></script>
+  </body>
+</html>
