@@ -18,6 +18,8 @@ Music fesitival app.
 
 [Live Demo Link](https://obote.github.io/Capstone/)
 
+[Video Link](https://www.loom.com/share/371b770c9a7c4b5fae3141c274ba4c25)
+
 
 ## Getting Started
 
