@@ -1,22 +1,22 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Capstone project
 
-> One paragraph statement about the project.
+> Working on a capstone project on week 5 at Microverse bootcamp..
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app.png)
 
-Additional description about the project and its features.
+Music fesitival app.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Java script
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://obote.github.io/Capstone/)
 
 
 ## Getting Started
@@ -27,33 +27,19 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
 ### Install
 
-### Usage
-
-### Run tests
-
-### Deployment
+git clone
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Denis Obote**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Obote](https://github.com/Obote)
+- Twitter: [@Obote_denis](https://twitter.com/Obote_denis)
+- LinkedIn: [Obote Denis](https://www.linkedin.com/in/obote-denis-9859a2a3/)
 
 ## 🤝 Contributing
 
@@ -67,9 +53,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Acknowlegdement to Cindy Shin for providing the design
+
 
 ## 📝 License
 
